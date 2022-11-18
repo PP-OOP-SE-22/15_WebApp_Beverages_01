@@ -84,7 +84,7 @@ function checkAge(age) {
 //2. Modul: Bild aktualisieren | Test:
 // output(updateImg("cola"));
 // output(updateImg("milch"));
-// output(updateImg("wein"));
+output(updateImg("wein"));
 function updateImg(imgName) {
     const img = document.getElementById("bevImg");
     img.src = gui.img.path + imgName + gui.img.ext;
